@@ -6,7 +6,7 @@ Main file is api/controller/HNSearch.js
 
 ## Approach
 
-The chosen data structure is a search tree for which each node is a date/time element (year, month, day, hours, minute) storing a associatve array with all the queries and their respective count for that date/time. This allows for:
+The chosen data structure is a search tree for which each node is a date/time element (year, month, day, hour, minute) storing a associatve array with all the queries and their respective count for that date/time. This allows for:
 * immediate lookup for search count
 * sort associative array according to values (count) for popular queries
 

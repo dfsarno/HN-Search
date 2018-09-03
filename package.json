@@ -1,0 +1,18 @@
+{
+  "name": "hn-search",
+  "version": "1.0.0",
+  "description": "extract the popular (most frequent) queries that have been done during a specific time range",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnaud Lenoble",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "treemap-js": "^1.2.1"
+  }
+}

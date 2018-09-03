@@ -1,6 +1,8 @@
 ## The HN Search app
 
 The goal is to extract the popular (most frequent) queries that have been done during a specific time range.
+Main file is api/controller/HNSearch.js
+
 
 ## Approach
 
@@ -18,5 +20,8 @@ Outline of the app:
 
 ## Try it
 
+note: If you want to try it, you will need to add ./data/hn_logs.tsv ( file has been remove to save space).
+
 http://localhost:3000/1/queries/count/2015-08-03
+
 http://localhost:3000/1/queries/popular/2015?size=3  
